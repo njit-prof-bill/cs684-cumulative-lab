@@ -21,3 +21,19 @@ pytest -q
 ```
 
 This assumes you are running linux, MacOS, or WSL. If you are running Windows, you can edit the bash script to uncomment the Powershell commands, then comment out the Linux commands. _Note_ this has not been tested with Windows and Powershell.
+
+---
+
+You will find the requirement for the ledger in the file `requirement.md`.
+
+You can run the ledger code with:
+
+```
+python ledger.py
+```
+
+You can run your tests with:
+
+```
+pytest -v
+```
